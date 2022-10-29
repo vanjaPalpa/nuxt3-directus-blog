@@ -3,6 +3,6 @@ import { defineNuxtConfig } from "nuxt";
 export default defineNuxtConfig({
 	modules: ["nuxt-directus", "@nuxtjs/tailwindcss"],
 	directus: {
-		url: "-",
+		url: "https://directus-vanja.up.railway.app/",
 	},
 });
